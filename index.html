@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <title>Digital Clock</title>
+  </head>
+
+  <body>
+    <div
+      class="container h-customHeight mt-52 font-sans bg-black w-custom rounded-3xl text-white m-auto"
+    >
+      <div class="mt-12">
+        <span
+          id="dd"
+          class="flex text-center font-bold justify-center text-3xl pt-5"
+        ></span>
+      </div>
+      <div class="time flex justify-center text-center py-12 text-solid">
+        <div class="leftSide flex-col mt-customWidth font-bold">
+          <span id="hours">00</span>
+          <span id="dots" class="mr-4">:</span>
+        </div>
+        <div class="mt-customWidth font-bold">
+          <span id="minutes">00</span>
+          <span id="dots" class="mr-4">: </span>
+        </div>
+        <div class="rightSide mt-customWidth font-bold">
+          <span id="seconds">00</span>
+          <span id="ampm" class="text-2xl text-[#FFD700]">PM</span>
+        </div>
+      </div>
+      <div>
+        <span
+          id="ddmmyy"
+          class="flex text-center font-bold justify-center text-3xl pb-5"
+        ></span>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
