@@ -1,2 +1,2 @@
 LIVE DEMO : 
-saimamjad-Digital-Clock.surge.sh
+https://saimamjad-digital-clock.surge.sh/
